@@ -1,0 +1,40 @@
+* {
+    font-family:'cursive, Courier New', Courier, monospace;
+    font-style: oblique;
+    color: rgb(230, 230, 63);
+    
+}
+body {
+    background-color: rgb(102, 51, 153, 0.6);
+}
+h1 {
+    border-style: solid;
+  border-color: rgb(102, 51, 153, 0.9);
+  border-width: 5px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: rgb(102, 51, 153, 0.9);
+}
+
+h3,
+a {
+    font-weight: bold;
+    color: rgb(224, 224, 32);
+}
+
+p,
+ul,
+ol {
+    border-style: solid;
+  border-color: rgb(102, 51, 153, 0.9);
+  border-width: 5px;
+  border-radius: 3px;
+  text-align: left;
+  background-color: rgb(102, 51, 153, 0.9);
+}
+img {
+  border-style: solid;
+  border-color: rgb(102, 51, 153, 0.9);
+  border-width: 5px;
+  border-radius: 3px;
+}
