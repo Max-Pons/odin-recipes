@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+* {
+    font-family: Shadows Into Light;
+  }
+  
+  html {
+    display: flex;
+   
+    box-sizing:border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #9925F1;
+    color: white;
+    flex: auto;
+    align-items: flex-start;
+  }
+
+  #head {
+    display: flex;
+    align-items: center;
+    background-color: #1b052c;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    gap: 15px;
+    margin: 0%;
+    
+  }
+
+  #head h1 {
+    flex: auto;
+  }
+
+  #block {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+  }
+
+  #head #spacer {
+    flex: auto;
+  }
+
+  #middle {
+    width: 500px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 500px hsl(0, 0%, 100%);
+    background-color: #b186d1;
+    margin-left: 750px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 8px;
+  }
+
+  #middle h3 {
+    color: #1b052c;
+  }
+
+  #foot {
+    display: flex;
+    align-items: center;
+    background-color: #1b052c;
+    padding-left: 40px;
+    height: 80px;
+  }
+
+  #foot a {
+    text-decoration: none;
+    color: #1b052c;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    font-size: 30px;
+}
+
+    #foot a:hover {
+        color: #ffffff;
+        background-color: #1b052c;
+        box-shadow: 0px 0px 3px #efefef;
+    }
+
+    #foot a:active {
+        box-shadow: inset 0px 0px 50px #efefef;
+    }
+  
