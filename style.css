@@ -158,7 +158,7 @@ ul li {
 
 #imgContainer #img {
   padding-top: 9px;
-  height: 280px;
+  height: 380px;
   width: 680px;
   border-radius: 16px;
   display: flex;
@@ -169,29 +169,52 @@ ul li {
   display: flex;
   flex: 1;
   align-items: center;
-  justify-content: space-between;
-  color: #efefef;
+  color: #ba80e6;
   padding-left: 0px;
   margin: 0;
-  gap: 200px;
+  gap: 10px;
+  overflow: hidden;
 
 }
 
 #img ul li {
   flex: 1;
+  overflow: hidden;
+}
+
+#img ul #pageLink {
+  box-shadow: inset 0px 0px 8px #efefef;
+  width: 120px;
+  background-color: #ba80e6;
 }
 
 #img li img {
-  height: 240px;
-  width: 170px;
-  border-radius: 20px;
+  height: 220px;
+  width: 150px;
+  border-radius: 10px;
   margin: 0;
 }
 
+#img #calq {
+  position: relative;
+  top: 4px;
+  animation: img 4s infinite linear;
+  right: -350px;
+}
+
+@keyframes img {  
+  0%{right: -350px}
+  100%{right: 200px}
+
+}
+
+
+
 #img li img:hover {
-  transform: scale(1.06); 
-  transition: all 0.6s ease;
-  box-shadow:  0px 0px 12px #efefef;
+  transform: scale(1.03); 
+  transition: all 0.6s;
+  box-shadow:  0px 0px 12px #000000;
+  cursor: pointer;
 }
 
 #middle {
@@ -222,7 +245,6 @@ ul li {
   list-style: none;
   align-items: center;
   justify-content: center;
-  gap: 50px;
 }
 
 #middle li {
